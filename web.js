@@ -12,7 +12,7 @@ fs.readFile('index.html', function (err, data) {
   console.log(data.toString('utf8', 0, data.length));
 
   app.get('/', function(request, response) {
-     response.send('Hello World!');
+     response.send('Hello World aarna!');
 });
 
 });
